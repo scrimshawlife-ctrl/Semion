@@ -1,3 +1,5 @@
+# Semion
+
 <p align="center">
   <img src="assets/hero.png" alt="Semion hero — bronze triad of icon, index, symbol" width="100%" />
 </p>
