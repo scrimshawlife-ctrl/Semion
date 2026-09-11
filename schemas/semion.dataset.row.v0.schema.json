@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "semion.dataset.row.v0",
+  "title": "semion.dataset.row.v0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "sign_form",
+    "gold_sign_class",
+    "gold_is_sign",
+    "split",
+    "provenance",
+    "epistemic",
+    "license"
+  ],
+  "properties": {
+    "sign_form": { "type": "string", "minLength": 1, "maxLength": 512 },
+    "sign_content": { "type": ["string", "null"] },
+    "object_candidate": { "type": ["string", "null"] },
+    "interpretant_candidate": { "type": ["string", "null"] },
+    "gold_sign_class": {
+      "type": "string",
+      "enum": ["icon", "index", "symbol", "mixed", "NOT_COMPUTABLE"]
+    },
+    "gold_is_sign": { "type": "boolean" },
+    "gold_action_type": {
+      "type": ["string", "null"],
+      "enum": [null, "STATE_UPDATE", "ATTENTION_SHIFT", "OUTPUT", "NO_ACTION", "NOT_COMPUTABLE"]
+    },
+    "split": { "enum": ["train", "val", "test"] },
+    "provenance": { "type": "string", "minLength": 1 },
+    "epistemic": { "enum": ["OBSERVED", "INFERRED"] },
+    "license": { "type": "string", "minLength": 1 },
+    "source_lane": {
+      "type": ["string", "null"],
+      "enum": [null, "amc_learn", "foundations", "seed_fixture", "wrapped_sign_atom"]
+    }
+  }
+}

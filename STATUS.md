@@ -10,7 +10,7 @@
 | Spec 001 triad T0 | specified + code |
 | Spec 002 corpus adapt | specified + `adapt.py` |
 | Spec 003 semiosis chain | specified + export `compat.py` |
-| Spec 004 encoder gate | specified, name_gate **false** |
+| Spec 004 encoder gate | specified, name_gate **false**, dataset note landed |
 | E-S0 / E-C0 / E-K0 | in repo |
 | Hub | closed |
-| Spec 009 id swap | **done** 2026-09-11 — `semion.triad` live in stack route table; `abx.semiotic` retired alias |
+| Spec 009 id swap | done — `semion.triad` |
