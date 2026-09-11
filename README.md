@@ -30,12 +30,16 @@ Raster stills for Settings → Social preview live at `assets/og-social.jpg` onc
 | Doc | Path |
 |-----|------|
 | Status | [`STATUS.md`](STATUS.md) |
+| Milestones | [`specs/MILESTONES.md`](specs/MILESTONES.md) |
 | Constitution | [`.specify/memory/constitution.md`](.specify/memory/constitution.md) |
 | Spec 000 spine | [`specs/000-semion-spine/spec.md`](specs/000-semion-spine/spec.md) |
 | Spec 001 triad | [`specs/001-semion-triad/spec.md`](specs/001-semion-triad/spec.md) |
+| Spec 002 corpus adapt | [`specs/002-corpus-adapt/spec.md`](specs/002-corpus-adapt/spec.md) |
+| Spec 003 chain | [`specs/003-semiosis-chain/spec.md`](specs/003-semiosis-chain/spec.md) |
+| Spec 004 encoder gate | [`specs/004-encoder-gate/spec.md`](specs/004-encoder-gate/spec.md) |
+| Dual-use gate | [`specs/000-semion-spine/dual-use-gate.md`](specs/000-semion-spine/dual-use-gate.md) |
 | Model card | [`MODEL_CARD.md`](MODEL_CARD.md) |
 | Quickstart | [`docs/quickstart.md`](docs/quickstart.md) |
-| Dual-use | [`docs/dual-use.md`](docs/dual-use.md) |
 | Architecture | [`ARCHITECTURE.md`](ARCHITECTURE.md) |
 
 ## Install and classify
