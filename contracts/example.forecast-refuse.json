@@ -1,0 +1,15 @@
+{
+  "schema": "semion.frame.v0",
+  "representamen": null,
+  "object": null,
+  "interpretant": null,
+  "sign_class": "NOT_COMPUTABLE",
+  "is_sign": false,
+  "promotion_reason": "NOT_COMPUTABLE",
+  "forecast_eligible": false,
+  "phenomenal": false,
+  "brier": null,
+  "epistemic": "NOT_COMPUTABLE",
+  "failure": "SPECIALIST_LANE_VIOLATION",
+  "corpus_ref": null
+}

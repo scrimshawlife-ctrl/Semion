@@ -1,0 +1,15 @@
+{
+  "schema": "semion.frame.v0",
+  "representamen": "smoke column",
+  "object": "fire",
+  "interpretant": "STATE_UPDATE:alert",
+  "sign_class": "index",
+  "is_sign": true,
+  "promotion_reason": "CORPUS_LABEL",
+  "forecast_eligible": false,
+  "phenomenal": false,
+  "brier": null,
+  "epistemic": "OBSERVED",
+  "failure": null,
+  "corpus_ref": "RUN-AMC-LEARN-0002.SUBCYCLE-0001"
+}
