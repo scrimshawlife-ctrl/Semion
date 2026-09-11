@@ -1,0 +1,30 @@
+{
+  "schema_version": "SemiosisFrame.v1",
+  "frame_id": "RUN-AMC-LEARN-0002.SUBCYCLE-0001",
+  "interpreter_id": null,
+  "input_signal": {
+    "raw_value": "smoke column",
+    "signal_type": null,
+    "information_content": null
+  },
+  "sign_status": {
+    "is_sign": true,
+    "promotion_reason": "CORPUS_LABEL"
+  },
+  "interpretant": {
+    "action_type": "STATE_UPDATE:alert",
+    "state_delta": {},
+    "external_effect": "",
+    "new_knowledge_units": []
+  },
+  "object": "fire",
+  "sign_class": "index",
+  "forecast_eligible": false,
+  "phenomenal": false,
+  "brier": null,
+  "provenance": {
+    "source": "semion.compat.frame_to_semiosis",
+    "label": "OBSERVED",
+    "failure": null
+  }
+}

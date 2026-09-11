@@ -1,39 +1,38 @@
-# Spec 003 — Semiosis chain (specify only)
+# Spec 003 — Semiosis chain
 
-**Feature**: How frames enter RUNE.SEMIOSIS without Semion owning YGGDRASIL
+**Feature**: Export `semion.frame.v0` as a SemiosisFrame-shaped dict without owning YGGDRASIL
 **Date**: 2026-09-11
-**Status**: SHADOW specify. Implement closed.
+**Status**: SHADOW specify + export compat in-repo. Rune mint closed.
 
 ## Intent
 
 Gudwin: a sign produces an interpretant; an interpretant may become a new sign. That chain is Abraxas runtime (`RUNE.SEMIOSIS.CHAIN`), not this package.
 
-Semion emits one frame. The router may hand that frame to the rune family. Semion does not mint runes.
+Semion emits one frame. Compat emits a dict Abraxas may consume. Semion does not mint runes.
 
 ## Boundary
 
 ```
-semion.frame.v0  —export→  Abraxas RUNE.SEMIOSIS.CHAIN  →  SemiosisFrame.v1
+semion.frame.v0  —export→  dict SemiosisFrame.v1-shaped  —Abraxas→  RUNE.SEMIOSIS.CHAIN
 ```
 
-Field bridge (candidate, not implemented):
-
-| Semion | SemiosisFrame.v1 |
+| Semion | Export |
 |---|---|
 | representamen | input_signal.raw_value |
 | is_sign | sign_status.is_sign |
 | promotion_reason | sign_status.promotion_reason |
 | interpretant | interpretant.action_type |
-| corpus_ref | frame_id provenance |
+| corpus_ref | frame_id |
 
-`source_space` / `target_space` / `focus_of_attention` stay Abraxas-side. Semion does not invent them at T0.
+`source_space` / `target_space` / `focus_of_attention` are omitted. Semion does not invent them.
 
 ## Deny
 
-Semion MUST NOT import `abraxas` to call the chain.
-A learned residual MUST NOT open private runtime paths (stack constitution III).
+No `import abraxas`. No rune registry writes. `forecast_eligible` stays false on the export.
 
-## Eval when implement opens
+## Eval
 
-E-K0: fixture frame round-trips to a SemiosisFrame-shaped dict in a *compat* module, no hard import.
-E-K1: chain failure cannot set forecast_eligible.
+| Gate | Pass |
+|---|---|
+| E-K0 | smoke frame → SemiosisFrame shape; no source_space |
+| E-K1 | forecast refuse export cannot set forecast_eligible |
