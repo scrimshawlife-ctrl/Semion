@@ -1,4 +1,5 @@
 # Plan 002
 
-P0 Publish map (this file set).
-P1 Later: `src/semion/adapt.py` reading jsonl → atoms. Separate cycle.
+P0 Map table.
+P1 Adapter + E-C0/E-C1 (this cycle).
+P2 Harvest jsonl from `~/.semion` — later, operator-gated.

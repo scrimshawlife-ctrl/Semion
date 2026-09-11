@@ -1,0 +1,21 @@
+{
+  "schema_version": "SemiosisFrame.v1",
+  "frame_id": "FOUNDATIONS-SMOKE-001",
+  "input_signal": {
+    "raw_value": "smoke column",
+    "signal_type": "visual",
+    "information_content": "plume"
+  },
+  "sign_status": {
+    "is_sign": true,
+    "promotion_reason": "CAUSES_STATE_CHANGE"
+  },
+  "interpretant": {
+    "action_type": "STATE_UPDATE"
+  },
+  "sign_inventory": {
+    "icons": [],
+    "indexes": ["smoke"],
+    "symbols": []
+  }
+}
