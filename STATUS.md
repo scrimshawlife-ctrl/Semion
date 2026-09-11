@@ -21,3 +21,6 @@
 | Boof ALLOW_TRAIN | **false** — Aaron trains on Spark |
 | Handoff doc | [`docs/aaron-train-handoff.md`](docs/aaron-train-handoff.md) |
 | README | operator front door expanded (stack parity with Athanor) |
+| Spec 004 doctrine | M2 amend: wrap/seed lawful INFERRED gold; OBSERVED AMC/Foundations preferred |
+| Pre-rebalance zip | quarantined under `/workspace/semion-gold/quarantine/` (404-row pack) |
+| OBSERVED share | **14 / 482** (~3%) — hunt plan: `docs/amc-foundations-hunt-plan.md` |
