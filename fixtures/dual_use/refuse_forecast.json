@@ -1,0 +1,5 @@
+{
+  "payload_class": "forecast_request",
+  "sign_form": "odds",
+  "expect_failure": "SPECIALIST_LANE_VIOLATION"
+}

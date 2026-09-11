@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "semion.frame.v0",
+  "title": "semion.frame.v0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "sign_class", "is_sign", "forecast_eligible", "phenomenal", "epistemic"],
+  "properties": {
+    "schema": { "const": "semion.frame.v0" },
+    "representamen": { "type": ["string", "null"] },
+    "object": { "type": ["string", "null"] },
+    "interpretant": { "type": ["string", "null"] },
+    "sign_class": {
+      "type": "string",
+      "enum": ["icon", "index", "symbol", "mixed", "NOT_COMPUTABLE"]
+    },
+    "is_sign": { "type": "boolean" },
+    "promotion_reason": {
+      "type": ["string", "null"],
+      "enum": [null, "CAUSES_STATE_CHANGE", "CORPUS_LABEL", "NO_ACTION", "NOT_COMPUTABLE"]
+    },
+    "forecast_eligible": { "const": false },
+    "phenomenal": { "const": false },
+    "brier": { "type": "null" },
+    "epistemic": {
+      "type": "string",
+      "enum": ["OBSERVED", "INFERRED", "SPECULATIVE", "NOT_COMPUTABLE"]
+    },
+    "failure": {
+      "type": ["string", "null"],
+      "enum": [null, "NOT_COMPUTABLE", "SPECIALIST_LANE_VIOLATION"]
+    },
+    "corpus_ref": { "type": ["string", "null"] }
+  }
+}
