@@ -13,4 +13,4 @@
 | Spec 004 encoder gate | specified, name_gate **false** |
 | E-S0 / E-C0 / E-K0 | in repo |
 | Hub | closed |
-| Spec 009 id swap | waiting operator sentence |
+| Spec 009 id swap | **done** 2026-09-11 — `semion.triad` live in stack route table; `abx.semiotic` retired alias |
