@@ -2,7 +2,7 @@
 
 **Audience:** Aaron Godbout (Spark)  
 **Date:** 2026-09-11 PT  
-**Repo pin:** `scrimshawlife-ctrl/Semion@ae47d9f` (docs tip may advance with this branch)
+**Repo pin:** `scrimshawlife-ctrl/Semion@8540fe7` (docs tip may advance with this branch)
 
 ## Pack
 
