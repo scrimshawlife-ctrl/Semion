@@ -37,6 +37,8 @@ The Validate badge may stay red when Actions billing blocks the workflow even if
 | Spec 000–003 | Specified + code |
 | Spec 004 encoder gate | Specified · `name_gate` **false** · dataset note landed |
 | Local gold SoT | `~/.semion/corpus/dataset.jsonl` — **482** gold (**not in git**) |
+| OBSERVED share | **14 / 482** (~3%) — wrap/seed lawful INFERRED; AMC/Foundations preferred |
+| Hunt plan | [`docs/amc-foundations-hunt-plan.md`](docs/amc-foundations-hunt-plan.md) |
 | Splits | train **330** · val **50** · test **102** |
 | keep_weak | **150** (demoted wrap-symbol; **not** gold) |
 | Spec 004 class floors | **PASS** (icon/index/symbol ≥15%; mixed/NC ≥8%) |

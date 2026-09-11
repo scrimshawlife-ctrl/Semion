@@ -2,7 +2,7 @@
 
 **Audience:** Aaron Godbout (Spark)  
 **Date:** 2026-09-11 PT  
-**Repo pin:** `scrimshawlife-ctrl/Semion@9e29976` (docs tip of this branch may be newer)
+**Repo pin:** `scrimshawlife-ctrl/Semion@ae47d9f` (docs tip may advance with this branch)
 
 ## Pack
 
@@ -32,8 +32,15 @@ Class floors PASS (icon/index/symbol ≥15%; mixed/NC ≥8%). Train symbol share
 5. Encoder gate: `specs/004-encoder-gate/`. `name_gate` stays **false** until your eval is green.
 6. HF Hub skipped (Danny). Boof `ALLOW_TRAIN` is false — run train on Spark.
 
+## Doctrine (post-audit)
+
+- Wrap/seed INFERRED rows are **lawful M2 gold** under Spec 004 amend (`specs/004-encoder-gate/dataset.md`).
+- Prefer `gold_observed.jsonl` for T0/T1 paths; grow OBSERVED via [`amc-foundations-hunt-plan.md`](amc-foundations-hunt-plan.md).
+- Pre-rebalance zip is **quarantined** on the operator box (`/workspace/semion-gold/quarantine/`) — do not train from it.
+
 ## Do not
 
 - Mix `keep_weak` into gold without a weak-lane flag
 - Treat Notion/email as a green name-gate
 - Publish to Hugging Face without Danny `ALLOW_HUB`
+- Train from the quarantined pre-rebalance (404-row) zip
