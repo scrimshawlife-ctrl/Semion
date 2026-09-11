@@ -1,7 +1,7 @@
 # Semion
 
 <p align="center">
-  <img src="assets/hero.svg" alt="Semion hero — bronze triad of icon, index, symbol" width="100%" />
+  <img src="assets/hero.png" alt="Semion hero — bronze triad of icon, index, symbol" width="100%" />
 </p>
 
 **Triad specialist** for the Abraxas model stack. Corpus atoms in. `semion.frame.v0` out.
@@ -22,14 +22,17 @@ The Validate badge may stay red when Actions billing blocks the workflow even if
 
 ## Social preview
 
-GitHub / link-preview card: [`assets/og-social.svg`](assets/og-social.svg) (1280×640). Distinct from the README hero.
-Raster stills for Settings → Social preview live at `assets/og-social.jpg` once dropped (see `assets/README.md`).
+Raster card for GitHub Settings → Social preview: [`assets/og-social.jpg`](assets/og-social.jpg) (1280×640). Also [`assets/og-social.png`](assets/og-social.png).
+SVG stand-in remains at [`assets/og-social.svg`](assets/og-social.svg).
+
+Custom Settings social preview is **not** writable via API or the GitHub MCP connector. After merge, paste `assets/og-social.jpg` in Settings → General → Social preview (private repos may require a prior upload or public visibility for sharing).
 
 ## Quick links
 
 | Doc | Path |
 |-----|------|
 | Status | [`STATUS.md`](STATUS.md) |
+| Aaron train handoff | [`docs/aaron-train-handoff.md`](docs/aaron-train-handoff.md) |
 | Milestones | [`specs/MILESTONES.md`](specs/MILESTONES.md) |
 | Constitution | [`.specify/memory/constitution.md`](.specify/memory/constitution.md) |
 | Spec 000 spine | [`specs/000-semion-spine/spec.md`](specs/000-semion-spine/spec.md) |
