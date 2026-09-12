@@ -63,17 +63,18 @@ If a later cycle wants a retrieval encoder, that is a different artifact name an
 
 Local SoT: `~/.semion/corpus/dataset.jsonl` (+ `keep_weak.jsonl`). Not in git.
 
-### M2 sealed snapshot (OBSERVED 2026-09-11 PT)
+### M2 sealed snapshot (HQ leakfix 2026-09-11 PT)
 
 | Slice | n | Notes |
 |---|---:|---|
-| gold pool | 482 | train 330 / val 50 / test 102 — floors **PASS** |
-| OBSERVED | 14 | amc_learn 12 · foundations 2 |
-| INFERRED wrap | 240 | `wrapped_sign_atom` |
+| gold pool | 452 | train 300 / val 50 / test 102 — floors **PASS** |
+| OBSERVED | 14 | amc_learn 12 · foundations 2 — honesty: still thin |
+| INFERRED wrap | ~210 | `wrapped_sign_atom` (page-dump wraps demoted in HQ) |
 | INFERRED seed | 228 | `seed_fixture` |
-| keep_weak | 150 | demoted wrap-symbol — not gold |
+| keep_weak | 180 | demoted wrap-symbol / athanor dumps — not gold |
+| HQ pack | — | `semion-train-pack-m2-hq-20260911` sha256 `2480bca9eaed7c211e2db01e52db9f62ece7e8e0c90b894221c1d0b11fa4d6d7`; prefer `gold_hq.jsonl` (242) |
 
-**Honesty:** floors pass; preferred OBSERVED share is still thin (~3%). Grow OBSERVED via the hunt plan before raising `name_gate`. Targets 600/150 are **not** hit.
+**Honesty:** floors pass; preferred OBSERVED share is still thin (**14** / 452 ≈ 3%). Grow OBSERVED via the hunt plan before raising `name_gate`. Targets 600/150 are **not** hit. Do not pad wrap.
 
 ## Shape
 
@@ -109,7 +110,7 @@ This is probe-scale. It is not a 7B SFT corpus. Do not pad with synthetic mind-t
 - Freeze `test` hashes before any encoder run.
 - No source_run_id in both train and test.
 - Dual-use refuse rows never appear as positive `is_sign` gold.
-- **Preferred:** `NOT_COMPUTABLE` / dual-use refuse live in **val/test** (held out of train). **M2 refuse debt CLEARED** (2026-09-11 PT): NC by split train **0** / val **9** / test **34**. Compensating keep_weak swap kept gold 482 and floors (promoted 40 wrap → train; demoted 40 wrap from val/test → keep_weak; keep_weak still 150). Pack: `semion-train-pack-m2-refuse-reshuffle-20260911`.
+- **Preferred:** `NOT_COMPUTABLE` / dual-use refuse live in **val/test** (held out of train). **M2 refuse debt CLEARED** (2026-09-11 PT): NC by split train **0** / val **9** / test **34**. **HQ leakfix** supersedes refuse-reshuffle: gold **452** / keep_weak **180**; KEEP-93 train-only; Athanor dumps holdout-only; exact provenance train∩test empty. Pack: `semion-train-pack-m2-hq-20260911` (sha256 `2480bca9eaed7c211e2db01e52db9f62ece7e8e0c90b894221c1d0b11fa4d6d7`).
 
 ## E-S3 bind
 
