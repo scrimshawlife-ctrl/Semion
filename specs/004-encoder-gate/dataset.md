@@ -72,7 +72,9 @@ Local SoT: `~/.semion/corpus/dataset.jsonl` (+ `keep_weak.jsonl`). Not in git.
 | INFERRED wrap | ~210 | `wrapped_sign_atom` (page-dump wraps demoted in HQ) |
 | INFERRED seed | 228 | `seed_fixture` |
 | keep_weak | 180 | demoted wrap-symbol / athanor dumps — not gold |
-| HQ pack | — | `semion-train-pack-m2-hq-20260911` sha256 `2480bca9eaed7c211e2db01e52db9f62ece7e8e0c90b894221c1d0b11fa4d6d7`; prefer `gold_hq.jsonl` (242) |
+| HQ pack | — | `semion-train-pack-m2-hq-20260911` sha256 `af83977d1251b7f62b07a184f14fc34c52b603a4c54406609fb247f43f6156c8` (post AMC high7); prefer `gold_hq.jsonl` (242) |
+
+**AMC high7 (2026-09-11):** seven high-priority OBSERVED `sign_form` modality labels rewritten to atom forms (slang phrase, smoke, skull, waveform, market volume spike, sigil, meme template). Counts/floors unchanged; medium proposals not applied. Receipt: `/workspace/semion-gold/receipts/amc-rewrite-high7-20260911.md`.
 
 **Honesty:** floors pass; preferred OBSERVED share is still thin (**14** / 452 ≈ 3%). Grow OBSERVED via the hunt plan before raising `name_gate`. Targets 600/150 are **not** hit. Do not pad wrap.
 
@@ -110,7 +112,7 @@ This is probe-scale. It is not a 7B SFT corpus. Do not pad with synthetic mind-t
 - Freeze `test` hashes before any encoder run.
 - No source_run_id in both train and test.
 - Dual-use refuse rows never appear as positive `is_sign` gold.
-- **Preferred:** `NOT_COMPUTABLE` / dual-use refuse live in **val/test** (held out of train). **M2 refuse debt CLEARED** (2026-09-11 PT): NC by split train **0** / val **9** / test **34**. **HQ leakfix** supersedes refuse-reshuffle: gold **452** / keep_weak **180**; KEEP-93 train-only; Athanor dumps holdout-only; exact provenance train∩test empty. Pack: `semion-train-pack-m2-hq-20260911` (sha256 `2480bca9eaed7c211e2db01e52db9f62ece7e8e0c90b894221c1d0b11fa4d6d7`).
+- **Preferred:** `NOT_COMPUTABLE` / dual-use refuse live in **val/test** (held out of train). **M2 refuse debt CLEARED** (2026-09-11 PT): NC by split train **0** / val **9** / test **34**. **HQ leakfix** supersedes refuse-reshuffle: gold **452** / keep_weak **180**; KEEP-93 train-only; Athanor dumps holdout-only; exact provenance train∩test empty. Pack: `semion-train-pack-m2-hq-20260911` (sha256 `af83977d1251b7f62b07a184f14fc34c52b603a4c54406609fb247f43f6156c8`, post AMC high7).
 
 ## E-S3 bind
 

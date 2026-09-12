@@ -2,15 +2,16 @@
 
 **Audience:** Aaron Godbout (Spark)  
 **Date:** 2026-09-11 PT  
-**Repo pin:** `scrimshawlife-ctrl/Semion@432dfe5` (main tip before this docs PR; docs tip advances on merge)
+**Repo pin:** `scrimshawlife-ctrl/Semion@e69e5bf` (main tip before this docs PR; docs tip advances on merge)
 
 ## Pack
 
 - Notion: https://app.notion.com/p/3d83e8ba2f5c81608499deffc060160d (Boof refreshes card for HQ pack)
 - Pack id: `semion-train-pack-m2-hq-20260911`
-- SHA256: `2480bca9eaed7c211e2db01e52db9f62ece7e8e0c90b894221c1d0b11fa4d6d7`
+- SHA256: `af83977d1251b7f62b07a184f14fc34c52b603a4c54406609fb247f43f6156c8`
 - Pack path (operator box): `/workspace/semion-gold/train-pack-m2-hq-20260911/`
 - Zip: `/workspace/semion-gold/semion-train-pack-m2-hq-20260911.zip`
+- **AMC high7 rewrite (2026-09-11):** 7 high-priority `sign_form` modality→atom rewrites applied (text→slang phrase; event/visual signal→smoke; image/object→skull; image/data visualization→waveform; data/event→market volume spike; image/object→sigil; image/text mixed→meme template). Receipt: `/workspace/semion-gold/receipts/amc-rewrite-high7-20260911.md`. Counts unchanged.
 - Gate: `QUALITY.md` + `COMPLETE.md` in pack (also [`docs/quality-bar.md`](quality-bar.md))
 - Spec 011: https://app.notion.com/p/3d83e8ba2f5c813c9989c0a2dc28357f
 
@@ -51,6 +52,7 @@ Gold pool **452**: OBSERVED **14** · inferred wrap **~210** · inferred seed **
 
 - Wrap/seed INFERRED rows are **lawful M2 gold** under Spec 004 amend (`specs/004-encoder-gate/dataset.md`), but HQ prefers seed over page-dump wrap.
 - Prefer `gold_hq.jsonl` / `gold_observed.jsonl`; grow OBSERVED via [`amc-foundations-hunt-plan.md`](amc-foundations-hunt-plan.md).
+- AMC high7: prefer atom-shaped `sign_form` on those 7 OBSERVED rows (slang phrase / smoke / skull / waveform / market volume spike / sigil / meme template); still prefer `gold_hq.jsonl` for train mass.
 - Pre-rebalance zip is **quarantined** on the operator box (`/workspace/semion-gold/quarantine/`) — do not train from it.
 - Refuse-reshuffle pack `semion-train-pack-m2-refuse-reshuffle-20260911` is **superseded** by the HQ pack above.
 
