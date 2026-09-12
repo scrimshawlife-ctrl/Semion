@@ -24,3 +24,4 @@
 | Spec 004 doctrine | M2 amend: wrap/seed lawful INFERRED gold; OBSERVED AMC/Foundations preferred |
 | Pre-rebalance zip | quarantined under `/workspace/semion-gold/quarantine/` (404-row pack) |
 | OBSERVED share | **14 / 482** (~3%) — hunt plan: `docs/amc-foundations-hunt-plan.md` |
+| Main tip | `8540fe7` — Spec 004 M2 doctrine + hunt plan landed |
