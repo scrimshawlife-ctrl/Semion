@@ -17,11 +17,12 @@
 | Hero / OG rasters | on main — `assets/hero.{png,jpg}` · `assets/og-social.{png,jpg}` |
 | Settings Social preview | **manual paste** of `og-social.jpg` (no API/MCP write) |
 | M2 rebalance pack | floors **PASS** — gold 482 (train 330 / val 50 / test 102); keep_weak 150 |
-| Aaron Notion pack | https://app.notion.com/p/3d83e8ba2f5c81608499deffc060160d |
+| M2 refuse reshuffle | **PASS** — NC by split train **0** / val **9** / test **34**; pack sha `dd0555d3ae4aae85976cb784bca11ebc71e1ac5d4b6b4f80dccb8f36cebcaa10` |
+| Aaron Notion pack | https://app.notion.com/p/3d83e8ba2f5c81608499deffc060160d (Boof refreshes refuse-reshuffle card) |
 | Boof ALLOW_TRAIN | **false** — Aaron trains on Spark |
 | Handoff doc | [`docs/aaron-train-handoff.md`](docs/aaron-train-handoff.md) |
 | README | operator front door expanded (stack parity with Athanor) |
 | Spec 004 doctrine | M2 amend: wrap/seed lawful INFERRED gold; OBSERVED AMC/Foundations preferred |
 | Pre-rebalance zip | quarantined under `/workspace/semion-gold/quarantine/` (404-row pack) |
 | OBSERVED share | **14 / 482** (~3%) — hunt plan: `docs/amc-foundations-hunt-plan.md` |
-| Main tip | `8540fe7` — Spec 004 M2 doctrine + hunt plan landed |
+| Main tip | `f465dfb` — pin PR #4; doctrine tip `8540fe7` |

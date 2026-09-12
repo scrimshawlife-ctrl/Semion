@@ -109,7 +109,7 @@ This is probe-scale. It is not a 7B SFT corpus. Do not pad with synthetic mind-t
 - Freeze `test` hashes before any encoder run.
 - No source_run_id in both train and test.
 - Dual-use refuse rows never appear as positive `is_sign` gold.
-- **Preferred:** `NOT_COMPUTABLE` / dual-use refuse live in **val/test** (held out of train). M2 currently has most NC in train (`seed_fixture`) — known debt; next harvest should move new refuse to test/val only.
+- **Preferred:** `NOT_COMPUTABLE` / dual-use refuse live in **val/test** (held out of train). **M2 refuse debt CLEARED** (2026-09-11 PT): NC by split train **0** / val **9** / test **34**. Compensating keep_weak swap kept gold 482 and floors (promoted 40 wrap → train; demoted 40 wrap from val/test → keep_weak; keep_weak still 150). Pack: `semion-train-pack-m2-refuse-reshuffle-20260911`.
 
 ## E-S3 bind
 

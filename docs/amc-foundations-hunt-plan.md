@@ -35,7 +35,7 @@ Raise OBSERVED AMC + Foundations gold without inventing packets.
 2. Inventory Foundations JSON for new non-empty buckets.
 3. If **0** new packets: **STOP** and ask Danny for source drop (no synthetic fill).
 4. If packets exist: feed SEMION gold bot → append OBSERVED → rebuild pack → refresh Notion SHA.
-5. Move future refuse harvests to test/val; leave existing M2 train NC as known debt unless Danny yes to reshuffle.
+5. **M2 refuse debt CLEARED** (reshuffle 2026-09-11): NC out of train (0/9/34). Keep future refuse harvests in test/val only.
 
 ## Current block (OBSERVED 2026-09-11)
 
