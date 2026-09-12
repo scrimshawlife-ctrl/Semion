@@ -17,4 +17,4 @@ Sealed HQ pack machine checks live in:
 
 `/workspace/semion-gold/train-pack-m2-hq-20260911/QUALITY.md`
 
-Prefer `gold_hq.jsonl` for train mass; see [`aaron-train-handoff.md`](aaron-train-handoff.md).
+Prefer `gold_hq.jsonl` for train mass; see [`aaron-train-handoff.md`](aaron-train-handoff.md). AMC high7: seven modality `sign_form`s rewritten to atom phrases (receipt `amc-rewrite-high7-20260911.md`); zip sha updated.
