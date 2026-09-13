@@ -29,7 +29,7 @@
     "acceptance_bundles": 10,
     "implementation_tasks": 10,
     "open_decisions": 8,
-    "documentation_negative_controls": 4,
+    "documentation_negative_controls": 11,
     "existing_pytest_passed": 9,
     "runtime_target_conformance": "NOT_COMPUTABLE"
   },

@@ -41,6 +41,11 @@ def requirement_errors(text):
     return not ids or len(ids) != len(set(ids))
 
 
+def duplicate_errors(definitions):
+    return [key for key, values in definitions.items()
+            if not values or len(values) != len(set(values))]
+
+
 def trace_errors(trace, definitions):
     errors = []
     rows = trace["rows"]
@@ -69,14 +74,20 @@ def main():
     workflows = read("specs/workflows.md")
     requirements = read("specs/requirements.md")
     definitions = {
-        "WF": set(re.findall(r"(?m)^## (WF-\d{3})\s*$", workflows)),
-        "REQ": set(re.findall(r"(?m)^\| (REQ-\d{3}) \|", requirements)),
-        "SM": set(re.findall(r"(?m)^\| (SM-\d{3}) \|", read("specs/state-machines.md"))),
-        "CON": set(re.findall(r"(?m)^## (CON-\d{3}) ", read("specs/contracts.md"))),
-        "AC": set(re.findall(r"(?m)^## (AC-\d{3})\s*$", read("specs/acceptance.md"))),
-        "TASK": set(re.findall(r"(?m)^\| (TASK-\d{3}) \|", read("specs/completion-tasks.md"))),
-        "DEC": set(re.findall(r"(?m)^\| (DEC-\d{3}) \|", read("specs/decisions.md"))),
+        "WF": re.findall(r"(?m)^## (WF-\d{3})\s*$", workflows),
+        "REQ": re.findall(r"(?m)^\| (REQ-\d{3}) \|", requirements),
+        "SM": re.findall(r"(?m)^\| (SM-\d{3}) \|", read("specs/state-machines.md")),
+        "CON": re.findall(r"(?m)^## (CON-\d{3}) ", read("specs/contracts.md")),
+        "AC": re.findall(r"(?m)^## (AC-\d{3})\s*$", read("specs/acceptance.md")),
+        "TASK": re.findall(r"(?m)^\| (TASK-\d{3}) \|", read("specs/completion-tasks.md")),
+        "DEC": re.findall(r"(?m)^\| (DEC-\d{3}) \|", read("specs/decisions.md")),
     }
+    assert not duplicate_errors(definitions), duplicate_errors(definitions)
+    for key in definitions:
+        duplicate = copy.deepcopy(definitions)
+        duplicate[key].append(duplicate[key][0])
+        assert duplicate_errors(duplicate) == [key], key
+    definitions = {key: set(values) for key, values in definitions.items()}
     assert not workflow_errors(workflows)
     assert not requirement_errors(requirements)
     trace = json.loads(read("specs/traceability.json"))
@@ -123,7 +134,7 @@ def main():
     assert json.loads(read("schemas/semion.frame.v0.schema.json")) == json.loads(read("contracts/semion.frame.v0.json"))
     subprocess.run([git, "diff", "--check", BASE], cwd=ROOT, check=True)
     print("SEMION_SPEC_PASS " + " ".join(f"{k}={len(v)}" for k, v in definitions.items())
-          + f" stages={len(STAGES)} workflow_fields={len(FIELDS)} negative_controls=4 changed_files={len(changed)}")
+          + f" stages={len(STAGES)} workflow_fields={len(FIELDS)} negative_controls={4 + len(definitions)} changed_files={len(changed)}")
 
 
 if __name__ == "__main__":

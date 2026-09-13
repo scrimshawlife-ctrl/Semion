@@ -10,7 +10,7 @@ python -B -m pytest -q -p no:cacheprovider
 git diff --check
 ```
 
-The specification checker uses the standard library only. It checks workflow fields, unique definitions, the 14-stage index, traceability references, local Markdown destinations, fixed-lane documentation, protected runtime/constitution/schema identity against the reviewed base, and unchanged duplicate frame schemas. Negative controls remove a workflow field, duplicate a requirement, break a trace reference, and falsely claim PASS; each must be detected. These checks measure documentation integrity, not runtime acceptance.
+The specification checker uses the standard library only. It checks workflow fields, unique definitions, the 14-stage index, traceability references, local Markdown destinations, fixed-lane documentation, protected runtime/constitution/schema identity against the reviewed base, and unchanged duplicate frame schemas. Eleven negative controls remove a workflow field, duplicate a requirement, break a trace reference, falsely claim PASS, and inject duplicates into each of seven definition categories before conversion to sets; each must be detected. These checks measure documentation integrity, not runtime acceptance.
 
 Existing pytest requires the declared development dependency. Read scripts before executing. No check needs network, home corpus, training, credentials, or external writes. Local Python 3.12 is the measured environment; 3.10/3.11 and hosted CI results must be reported only if observed separately.
 
