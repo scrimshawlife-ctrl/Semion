@@ -1,5 +1,7 @@
 # Aaron train handoff — Semion M2 HQ pack
 
+Current advisory qualification (2026-09-13 UTC): the instructions below are preserved historical source text, not a new train/transfer authorization. The full 452-row pool and preferred 242-row HQ subset are different datasets; do not train heldout rows or claim the subset satisfies full-pool floors. Resolve [DEC-001, DEC-002 and DEC-006](../specs/decisions.md) before use. Pack contents, hash, rights and actual authorization remain NOT_COMPUTABLE in this review. No Notion page or private pack was changed.
+
 **Audience:** Aaron Godbout (Spark)  
 **Date:** 2026-09-11 PT  
 **Repo pin:** `scrimshawlife-ctrl/Semion@e69e5bf` (main tip before this docs PR; docs tip advances on merge)
@@ -64,3 +66,5 @@ Gold pool **452**: OBSERVED **14** · inferred wrap **~210** · inferred seed **
 - Train from the quarantined pre-rebalance (404-row) zip
 - Train from the refuse-reshuffle pack (superseded; pre-HQ leakfix)
 - Grow page-dump wrap mass or pad to 600
+
+Provenance: Notion Sprint 001 Hub [not inspected; Semion handoff read 2026-09-13 UTC] + Loop 805 Slice N/A (Semion advisory) + Hash: e5ed91bd90afb0429cf816504c7d5e622bbbc153 (base)

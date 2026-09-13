@@ -1,0 +1,41 @@
+{
+  "schema_version": "semion.advisory.spec_completion_receipt.v1",
+  "boundary": "Advisory specification reconciliation only. This does not govern or activate. No runtime, constitution, runtime schema, corpus, training, Hub, Notion or merge mutation.",
+  "evidence_packet": {
+    "base_commit": "e5ed91bd90afb0429cf816504c7d5e622bbbc153",
+    "repo": "https://github.com/scrimshawlife-ctrl/Semion",
+    "graph_project": "Semion",
+    "base_graph_nodes": 620,
+    "base_graph_edges": 801,
+    "latest_corpus_counts_reported_not_verified": {"gold": 452, "train": 300, "val": 50, "test": 102, "keep_weak": 180, "observed_labels": 14, "preferred_hq_pool": 242},
+    "independent_corpus_quality": "NOT_COMPUTABLE",
+    "independent_pack_integrity": "NOT_COMPUTABLE",
+    "e_s3": "NOT_COMPUTABLE",
+    "notion_source": "https://app.notion.com/p/3d83e8ba2f5c81608499deffc060160d",
+    "notion_source_last_edited_at": "2026-09-12T00:58:21.253Z",
+    "notion_native_verification": "unverified",
+    "notion_writeback": "NOT_PERFORMED"
+  },
+  "task": "Complete a repository-relevant advisory specification across all 14 methodology stages, with stable workflows and explicit unresolved decisions.",
+  "output_expected": "Reviewable documentation, verification script, sanitized receipt and PR; proposed behavior is not marked shipped.",
+  "validation": {
+    "status": "PASSED_LOCAL",
+    "methodology_stages": 14,
+    "requirements": 20,
+    "workflows": 10,
+    "workflow_fields_each": 16,
+    "state_machines": 6,
+    "contracts": 6,
+    "acceptance_bundles": 10,
+    "implementation_tasks": 10,
+    "open_decisions": 8,
+    "documentation_negative_controls": 4,
+    "existing_pytest_passed": 9,
+    "runtime_target_conformance": "NOT_COMPUTABLE"
+  },
+  "residual_risks": ["Eight decisions remain open", "Runtime gaps remain unfixed", "Private data and external consumer are unverified", "No train/name/Hub authority inferred"],
+  "recommended_next_advisory_action": "Operator reviews DEC-001 through DEC-008; then bounded T0 validation and refusal tasks before a separate encoder cycle.",
+  "authorization": "Operator approved local specification reconciliation, then requested handling PRs from this chat. No merge or runtime authority inferred.",
+  "governance_route": "N/A: no Abraxas Loop 805 orchestration surface exists in Semion. No substitute governance created; Sprint 001 linkage NOT_COMPUTABLE.",
+  "provenance": "Provenance: Notion Sprint 001 Hub [not inspected; Semion handoff read 2026-09-13 UTC] + Loop 805 Slice N/A (Semion advisory) + Hash: e5ed91bd90afb0429cf816504c7d5e622bbbc153 (base)"
+}

@@ -1,5 +1,7 @@
 # Semion
 
+Specification review: start at [docs/START_HERE.md](docs/START_HERE.md). The complete advisory methodology is separate from runtime conformance; see [assessment](specs/assessment.md) and [open decisions](specs/decisions.md). This does not govern or activate.
+
 <p align="center">
   <img src="assets/hero.png" alt="Semion hero — bronze triad of icon, index, symbol" width="100%" />
 </p>
@@ -27,21 +29,23 @@ The Validate badge may stay red when Actions billing blocks the workflow even if
 |-----------|-------------------|
 | T0 `classify` / `adapt` / chain export (`compat`) | Trained encoder weights / Hub upload |
 | Spec 004 encoder **gate** (name_gate **false**) | `ALLOW_TRAIN` / `ALLOW_HUB` from Boof |
-| M2 rebalance gold floors **PASS** (local SoT + Aaron pack) | Full labeled SoT in git |
+| Historical M2 floor **PASS report** (not independently verified here) | Full labeled SoT in git |
 | Hero + OG rasters | Auto Settings social-preview write |
 
-## Current state (OBSERVED 2026-09-11 PT)
+## Latest reported state (2026-09-11 PT; qualified 2026-09-13 UTC)
+
+Counts below are reports from the later HQ dataset note and Notion handoff, not independently inspected corpus bytes. Floors, pack integrity, source rights and E-S3 readiness are NOT_COMPUTABLE in this review. Earlier 482-row/150-weak counts are superseded reports, not the current selected subset. A 242-row preferred HQ pool cannot alone satisfy the 300-row training floor; selection and train permission remain unresolved.
 
 | Area | State |
 |------|-------|
 | Spec 000–003 | Specified + code |
 | Spec 004 encoder gate | Specified · `name_gate` **false** · dataset note landed |
-| Local gold SoT | `~/.semion/corpus/dataset.jsonl` — **482** gold (**not in git**) |
-| OBSERVED share | **14 / 482** (~3%) — wrap/seed lawful INFERRED; AMC/Foundations preferred |
+| Local gold SoT | `~/.semion/corpus/dataset.jsonl` — **452 reported** gold (**not in git; not independently verified**) |
+| OBSERVED share | **14 / 452 reported** (~3%) — wrap/seed lawful INFERRED; AMC/Foundations preferred |
 | Hunt plan | [`docs/amc-foundations-hunt-plan.md`](docs/amc-foundations-hunt-plan.md) |
-| Splits | train **330** · val **50** · test **102** |
-| keep_weak | **150** (demoted wrap-symbol; **not** gold) |
-| Spec 004 class floors | **PASS** (icon/index/symbol ≥15%; mixed/NC ≥8%) |
+| Splits | reported train **300** · val **50** · test **102** |
+| keep_weak | **180 reported** (demoted wrap-symbol; **not** gold) |
+| Spec 004 class floors | Historical **PASS report**; current independent verification **NOT_COMPUTABLE** |
 | Hub / HF | **Skipped** (Danny) |
 | Boof `ALLOW_TRAIN` | **false** — Aaron trains on Spark |
 | Aaron Notion pack | https://app.notion.com/p/3d83e8ba2f5c81608499deffc060160d |
@@ -130,3 +134,5 @@ Hyperlex (form / lexical) · Athanor (tradition structure) · **Semion (sign rel
 ## License
 
 Code: MIT. Corpus atoms carry their own licenses — see [`LICENSE_POLICY.md`](LICENSE_POLICY.md).
+
+Provenance: Notion Sprint 001 Hub [not inspected; Semion handoff read 2026-09-13 UTC] + Loop 805 Slice N/A (Semion advisory) + Hash: e5ed91bd90afb0429cf816504c7d5e622bbbc153 (base)

@@ -1,5 +1,13 @@
 # STATUS
 
+## Current review qualification — 2026-09-13 UTC
+
+OBSERVED base: e5ed91bd90afb0429cf816504c7d5e622bbbc153. Nine existing local tests pass; reproduced gaps remain in direct route denial, epistemic attribution and NC consistency. [Advisory specification](docs/START_HERE.md) now covers the full methodology; target runtime acceptance is NOT_COMPUTABLE, not complete.
+
+Latest reported HQ pool is 452 (300/50/102), keep_weak 180, OBSERVED labels 14, preferred gold_hq 242. The private pack has not been independently validated. Its quality/floor PASS entries below are historical reports. Training subset, permission semantics and label-hidden evaluation remain [open decisions](specs/decisions.md). name_gate remains false; no training, Hub, router, canon or Notion mutation occurs in this patch.
+
+## Historical status ledger — preserved, not refreshed proof
+
 **Lane**: SHADOW
 **Date**: 2026-09-11
 **Version**: 0.1.0
@@ -29,3 +37,5 @@
 | Pre-rebalance zip | quarantined under `/workspace/semion-gold/quarantine/` (404-row pack) |
 | OBSERVED share | **14 / 452** (~3%) — hunt plan: `docs/amc-foundations-hunt-plan.md` |
 | Main tip | `e69e5bf` — M2 HQ pack handoff #6; AMC high7 docs PR advances tip |
+
+Provenance: Notion Sprint 001 Hub [not inspected; Semion handoff read 2026-09-13 UTC] + Loop 805 Slice N/A (Semion advisory) + Hash: e5ed91bd90afb0429cf816504c7d5e622bbbc153 (base)
