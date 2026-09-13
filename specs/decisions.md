@@ -24,4 +24,3 @@ All entries are OPEN. Owner denotes an existing reviewing role, not newly grante
 Do not relabel historical sources OBSERVED merely because these rows name a reviewer. Resolving a decision updates the decision with evidence, then its dependent requirements, workflows, acceptance cases, and tasks together.
 
 Provenance: Notion Sprint 001 Hub [not inspected; Semion handoff read 2026-09-13 UTC] + Loop 805 Slice N/A (Semion advisory) + Hash: e5ed91bd90afb0429cf816504c7d5e622bbbc153 (base)
-

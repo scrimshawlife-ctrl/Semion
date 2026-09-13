@@ -32,4 +32,3 @@ Caller JSON, source labels, references, nested inventories, file paths, and exte
 Keep licenses attached per source; code MIT does not relicense corpus. No PDFs, private SoT, secrets, or weights in Git. Existing HERMENEUT and ADVERSARY reviews are referenced, not claimed performed. No dependency on credentials or network is allowed for T0 smoke and specification checks. These are design controls, not a completed penetration test or legal clearance.
 
 Provenance: Notion Sprint 001 Hub [not inspected; Semion handoff read 2026-09-13 UTC] + Loop 805 Slice N/A (Semion advisory) + Hash: e5ed91bd90afb0429cf816504c7d5e622bbbc153 (base)
-

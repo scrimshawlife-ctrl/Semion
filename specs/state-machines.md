@@ -18,4 +18,3 @@ REFUSED and ABSTAINED are different outcomes but both export no active interpret
 A correction propagates SUPERSEDED -> STALE across dependent snapshots/results and marks handoff impact, without remotely deleting or mutating anything. Duplicate attempts return the prior receipt only when workflow, input hash, config hash, and scope match; otherwise allocate a distinct attempt.
 
 Provenance: Notion Sprint 001 Hub [not inspected; Semion handoff read 2026-09-13 UTC] + Loop 805 Slice N/A (Semion advisory) + Hash: e5ed91bd90afb0429cf816504c7d5e622bbbc153 (base)
-

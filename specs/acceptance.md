@@ -103,4 +103,3 @@ Current evidence: No real corpus corrections or external notifications performed
 Target conformance: NOT_COMPUTABLE.
 
 Provenance: Notion Sprint 001 Hub [not inspected; Semion handoff read 2026-09-13 UTC] + Loop 805 Slice N/A (Semion advisory) + Hash: e5ed91bd90afb0429cf816504c7d5e622bbbc153 (base)
-

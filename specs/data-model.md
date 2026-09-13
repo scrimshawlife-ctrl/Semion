@@ -26,4 +26,3 @@ row_id is a stable locator; content_sha256 changes when text, label-bearing sour
 Private payloads remain in operator-controlled storage; Git receives schema/fixture and sanitized evidence only. No deletion schedule is invented: DEC-007 must establish retention and access before implementation. Rights withdrawal blocks further distribution while the operator decides lawful retention of existing evidence. No home directory is inspected, migrated or modified by these specs.
 
 Provenance: Notion Sprint 001 Hub [not inspected; Semion handoff read 2026-09-13 UTC] + Loop 805 Slice N/A (Semion advisory) + Hash: e5ed91bd90afb0429cf816504c7d5e622bbbc153 (base)
-

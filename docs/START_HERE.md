@@ -28,4 +28,3 @@ These documents complete the advisory specification structure, not runtime confo
 Start with [current evidence and conflicts](../specs/assessment.md). Proposed behavioral tightening is explicitly not shipped. The eight open decisions prevent an unconditional implementation-ready claim. No new operator role or authority layer is created.
 
 Provenance: Notion Sprint 001 Hub [not inspected; Semion handoff read 2026-09-13 UTC] + Loop 805 Slice N/A (Semion advisory) + Hash: e5ed91bd90afb0429cf816504c7d5e622bbbc153 (base)
-

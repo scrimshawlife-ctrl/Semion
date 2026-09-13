@@ -228,4 +228,3 @@ Status: proposed specification. This does not govern or activate. All 16 fields 
 | Unresolved items | DEC-007 retention of superseded records; DEC-008 recipient authority |
 
 Provenance: Notion Sprint 001 Hub [not inspected; Semion handoff read 2026-09-13 UTC] + Loop 805 Slice N/A (Semion advisory) + Hash: e5ed91bd90afb0429cf816504c7d5e622bbbc153 (base)
-

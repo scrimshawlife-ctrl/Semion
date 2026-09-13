@@ -30,4 +30,3 @@ Status: proposed acceptance targets, not a claim of current implementation. Exis
 Determinism is exact semantic JSON equality on repeated identical input with pinned engine/config. Input resource budgets are proposed in CON-001; do not assert a measured throughput or latency SLO. Local processing must not require network, credentials, corpus-home access, or ML dependencies. Evidence records must be bounded and exclude payload text by default. Installed CLI/package verification is required before distribution. Platform coverage beyond actually run environments is NOT_COMPUTABLE.
 
 Provenance: Notion Sprint 001 Hub [not inspected; Semion handoff read 2026-09-13 UTC] + Loop 805 Slice N/A (Semion advisory) + Hash: e5ed91bd90afb0429cf816504c7d5e622bbbc153 (base)
-

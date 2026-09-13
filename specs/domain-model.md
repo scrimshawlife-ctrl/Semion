@@ -22,4 +22,3 @@ Signs are not minds. Adaptation, classification, export, dataset membership, tra
 Hyperlex owns lexical/form routes; Athanor owns tradition/family/correspondence gold; abx.brier owns settled calibration. Mixed packets are routed upstream first. Semion's exporter returns data only. Abraxas owns any chain lifecycle and consumer validation. This specification does not merge these repos or duplicate their governance.
 
 Provenance: Notion Sprint 001 Hub [not inspected; Semion handoff read 2026-09-13 UTC] + Loop 805 Slice N/A (Semion advisory) + Hash: e5ed91bd90afb0429cf816504c7d5e622bbbc153 (base)
-

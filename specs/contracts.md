@@ -53,4 +53,3 @@ Proposed receipt: receipt_id, workflow_id, attempt_id, started_at/finished_at in
 Handoff manifest additionally lists approved recipient/purpose, exact approval reference, each safe relative path and byte hash, snapshot reference, rights restrictions, exclusions and verification instructions. No absolute operator paths, secrets, raw private corpus text or temporary signed URLs in public receipts. Missing/invalid scope prevents transfer; a review receipt never functions as an executable permission token.
 
 Provenance: Notion Sprint 001 Hub [not inspected; Semion handoff read 2026-09-13 UTC] + Loop 805 Slice N/A (Semion advisory) + Hash: e5ed91bd90afb0429cf816504c7d5e622bbbc153 (base)
-

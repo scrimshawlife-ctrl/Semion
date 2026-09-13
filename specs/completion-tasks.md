@@ -22,4 +22,3 @@ Ready: referenced decisions closed with evidence, workflow reviewed, contract pi
 Sequence: T0 TASK-001 -> TASK-002 -> TASK-003 -> TASK-004. Data TASK-005 -> TASK-006 -> TASK-010 only under separate scope. Evaluation TASK-007 -> TASK-008, then TASK-009. Keep encoder implementation separate from packet/schema changes under constitution X. No new issues, milestone or Loop slice is invented by this plan; Loop 805/Sprint 001 applicability to this repo is N/A until an actual operator reference is provided.
 
 Provenance: Notion Sprint 001 Hub [not inspected; Semion handoff read 2026-09-13 UTC] + Loop 805 Slice N/A (Semion advisory) + Hash: e5ed91bd90afb0429cf816504c7d5e622bbbc153 (base)
-
