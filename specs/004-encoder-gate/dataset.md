@@ -1,5 +1,7 @@
 # Dataset — Semion encoder (gated)
 
+Review qualification (2026-09-13 UTC): this dated dataset note is retained as source evidence, not independent validation of the private corpus. The latest 452-row report is consistent with the linked Notion handoff; 242 preferred HQ rows alone cannot meet the 300-row training floor. Effective subset, permission timing and fair T0 comparison are unresolved in [DEC-001/002/006](../decisions.md). No floor is waived and no training is authorized by this patch. See [WF-005 through WF-009](../workflows.md) and [CON-004 through CON-006](../contracts.md).
+
 **Status**: SHADOW note. Not a harvest. name_gate still false.
 **Date**: 2026-09-11
 **Amend**: M2 rebalance doctrine (2026-09-11 PT) — wrap/seed as lawful INFERRED gold; OBSERVED AMC/Foundations still preferred.
@@ -121,3 +123,5 @@ N in the gate is the **floor** table above until an operator raises it in this f
 ## Hunt plan pointer
 
 See [`docs/amc-foundations-hunt-plan.md`](../../docs/amc-foundations-hunt-plan.md).
+
+Provenance: Notion Sprint 001 Hub [not inspected; Semion handoff read 2026-09-13 UTC] + Loop 805 Slice N/A (Semion advisory) + Hash: e5ed91bd90afb0429cf816504c7d5e622bbbc153 (base)

@@ -1,0 +1,347 @@
+{
+  "status": "ADVISORY_REVIEW",
+  "base_commit": "e5ed91bd90afb0429cf816504c7d5e622bbbc153",
+  "methodology": [
+    "Constitution/doctrine",
+    "Domain model",
+    "Requirements",
+    "Journeys",
+    "Workflows",
+    "State machines",
+    "Contracts",
+    "Data model",
+    "Security/privacy/governance",
+    "Architecture",
+    "Acceptance criteria",
+    "Traceability",
+    "Tasks",
+    "Verification"
+  ],
+  "rows": [
+    {
+      "requirement": "REQ-001",
+      "workflow": "WF-001",
+      "state_machines": [
+        "SM-001"
+      ],
+      "contracts": [
+        "CON-001"
+      ],
+      "acceptance": "AC-001",
+      "task": "TASK-001",
+      "verification": "specs/verification.md",
+      "runtime_status": "NOT_COMPUTABLE",
+      "evidence": "Existing E-C0/E-C1 fixtures cover only a subset; add parametrized boundaries."
+    },
+    {
+      "requirement": "REQ-002",
+      "workflow": "WF-001",
+      "state_machines": [
+        "SM-001"
+      ],
+      "contracts": [
+        "CON-001"
+      ],
+      "acceptance": "AC-001",
+      "task": "TASK-001",
+      "verification": "specs/verification.md",
+      "runtime_status": "NOT_COMPUTABLE",
+      "evidence": "Existing E-C0/E-C1 fixtures cover only a subset; add parametrized boundaries."
+    },
+    {
+      "requirement": "REQ-003",
+      "workflow": "WF-002",
+      "state_machines": [
+        "SM-001"
+      ],
+      "contracts": [
+        "CON-001",
+        "CON-002",
+        "CON-003"
+      ],
+      "acceptance": "AC-002",
+      "task": "TASK-002",
+      "verification": "specs/verification.md",
+      "runtime_status": "NOT_COMPUTABLE",
+      "evidence": "Existing forecast tests pass; bare slang positive counterexample reproduced."
+    },
+    {
+      "requirement": "REQ-004",
+      "workflow": "WF-002",
+      "state_machines": [
+        "SM-001"
+      ],
+      "contracts": [
+        "CON-001",
+        "CON-002",
+        "CON-003"
+      ],
+      "acceptance": "AC-002",
+      "task": "TASK-002",
+      "verification": "specs/verification.md",
+      "runtime_status": "NOT_COMPUTABLE",
+      "evidence": "Existing forecast tests pass; bare slang positive counterexample reproduced."
+    },
+    {
+      "requirement": "REQ-005",
+      "workflow": "WF-003",
+      "state_machines": [
+        "SM-001"
+      ],
+      "contracts": [
+        "CON-001",
+        "CON-002"
+      ],
+      "acceptance": "AC-003",
+      "task": "TASK-003",
+      "verification": "specs/verification.md",
+      "runtime_status": "NOT_COMPUTABLE",
+      "evidence": "Three evidence/precedence gaps reproduced; DEC-003 and DEC-005 must close."
+    },
+    {
+      "requirement": "REQ-006",
+      "workflow": "WF-003",
+      "state_machines": [
+        "SM-001"
+      ],
+      "contracts": [
+        "CON-001",
+        "CON-002"
+      ],
+      "acceptance": "AC-003",
+      "task": "TASK-003",
+      "verification": "specs/verification.md",
+      "runtime_status": "NOT_COMPUTABLE",
+      "evidence": "Three evidence/precedence gaps reproduced; DEC-003 and DEC-005 must close."
+    },
+    {
+      "requirement": "REQ-007",
+      "workflow": "WF-004",
+      "state_machines": [
+        "SM-001"
+      ],
+      "contracts": [
+        "CON-002",
+        "CON-003"
+      ],
+      "acceptance": "AC-004",
+      "task": "TASK-004",
+      "verification": "specs/verification.md",
+      "runtime_status": "NOT_COMPUTABLE",
+      "evidence": "Two current bridge tests pass, external schema not inspected; DEC-004 open."
+    },
+    {
+      "requirement": "REQ-008",
+      "workflow": "WF-004",
+      "state_machines": [
+        "SM-001"
+      ],
+      "contracts": [
+        "CON-002",
+        "CON-003"
+      ],
+      "acceptance": "AC-004",
+      "task": "TASK-004",
+      "verification": "specs/verification.md",
+      "runtime_status": "NOT_COMPUTABLE",
+      "evidence": "Two current bridge tests pass, external schema not inspected; DEC-004 open."
+    },
+    {
+      "requirement": "REQ-009",
+      "workflow": "WF-005",
+      "state_machines": [
+        "SM-002"
+      ],
+      "contracts": [
+        "CON-004"
+      ],
+      "acceptance": "AC-005",
+      "task": "TASK-005",
+      "verification": "specs/verification.md",
+      "runtime_status": "NOT_COMPUTABLE",
+      "evidence": "Current dataset schema accepts NC-positive counterexample; private rows unverified."
+    },
+    {
+      "requirement": "REQ-010",
+      "workflow": "WF-005",
+      "state_machines": [
+        "SM-002"
+      ],
+      "contracts": [
+        "CON-004"
+      ],
+      "acceptance": "AC-005",
+      "task": "TASK-005",
+      "verification": "specs/verification.md",
+      "runtime_status": "NOT_COMPUTABLE",
+      "evidence": "Current dataset schema accepts NC-positive counterexample; private rows unverified."
+    },
+    {
+      "requirement": "REQ-011",
+      "workflow": "WF-006",
+      "state_machines": [
+        "SM-003"
+      ],
+      "contracts": [
+        "CON-004",
+        "CON-005"
+      ],
+      "acceptance": "AC-006",
+      "task": "TASK-006",
+      "verification": "specs/verification.md",
+      "runtime_status": "NOT_COMPUTABLE",
+      "evidence": "No private pack validation performed; DEC-002 and DEC-007 open."
+    },
+    {
+      "requirement": "REQ-012",
+      "workflow": "WF-006",
+      "state_machines": [
+        "SM-003"
+      ],
+      "contracts": [
+        "CON-004",
+        "CON-005"
+      ],
+      "acceptance": "AC-006",
+      "task": "TASK-006",
+      "verification": "specs/verification.md",
+      "runtime_status": "NOT_COMPUTABLE",
+      "evidence": "No private pack validation performed; DEC-002 and DEC-007 open."
+    },
+    {
+      "requirement": "REQ-013",
+      "workflow": "WF-007",
+      "state_machines": [
+        "SM-004"
+      ],
+      "contracts": [
+        "CON-005",
+        "CON-006"
+      ],
+      "acceptance": "AC-007",
+      "task": "TASK-007",
+      "verification": "specs/verification.md",
+      "runtime_status": "NOT_COMPUTABLE",
+      "evidence": "No candidate or independently verified benchmark available; DEC-006 open."
+    },
+    {
+      "requirement": "REQ-014",
+      "workflow": "WF-007",
+      "state_machines": [
+        "SM-004"
+      ],
+      "contracts": [
+        "CON-005",
+        "CON-006"
+      ],
+      "acceptance": "AC-007",
+      "task": "TASK-007",
+      "verification": "specs/verification.md",
+      "runtime_status": "NOT_COMPUTABLE",
+      "evidence": "No candidate or independently verified benchmark available; DEC-006 open."
+    },
+    {
+      "requirement": "REQ-015",
+      "workflow": "WF-008",
+      "state_machines": [
+        "SM-005"
+      ],
+      "contracts": [
+        "CON-005",
+        "CON-006"
+      ],
+      "acceptance": "AC-008",
+      "task": "TASK-008",
+      "verification": "specs/verification.md",
+      "runtime_status": "NOT_COMPUTABLE",
+      "evidence": "Document-only semantics; DEC-001 and DEC-008 open."
+    },
+    {
+      "requirement": "REQ-016",
+      "workflow": "WF-008",
+      "state_machines": [
+        "SM-005"
+      ],
+      "contracts": [
+        "CON-005",
+        "CON-006"
+      ],
+      "acceptance": "AC-008",
+      "task": "TASK-008",
+      "verification": "specs/verification.md",
+      "runtime_status": "NOT_COMPUTABLE",
+      "evidence": "Document-only semantics; DEC-001 and DEC-008 open."
+    },
+    {
+      "requirement": "REQ-017",
+      "workflow": "WF-009",
+      "state_machines": [
+        "SM-006"
+      ],
+      "contracts": [
+        "CON-005",
+        "CON-006"
+      ],
+      "acceptance": "AC-009",
+      "task": "TASK-009",
+      "verification": "specs/verification.md",
+      "runtime_status": "NOT_COMPUTABLE",
+      "evidence": "Notion page text read; original pack bytes and transfer not verified."
+    },
+    {
+      "requirement": "REQ-018",
+      "workflow": "WF-009",
+      "state_machines": [
+        "SM-006"
+      ],
+      "contracts": [
+        "CON-005",
+        "CON-006"
+      ],
+      "acceptance": "AC-009",
+      "task": "TASK-009",
+      "verification": "specs/verification.md",
+      "runtime_status": "NOT_COMPUTABLE",
+      "evidence": "Notion page text read; original pack bytes and transfer not verified."
+    },
+    {
+      "requirement": "REQ-019",
+      "workflow": "WF-010",
+      "state_machines": [
+        "SM-002",
+        "SM-003",
+        "SM-004"
+      ],
+      "contracts": [
+        "CON-004",
+        "CON-005",
+        "CON-006"
+      ],
+      "acceptance": "AC-010",
+      "task": "TASK-010",
+      "verification": "specs/verification.md",
+      "runtime_status": "NOT_COMPUTABLE",
+      "evidence": "No real corpus corrections or external notifications performed."
+    },
+    {
+      "requirement": "REQ-020",
+      "workflow": "WF-010",
+      "state_machines": [
+        "SM-002",
+        "SM-003",
+        "SM-004"
+      ],
+      "contracts": [
+        "CON-004",
+        "CON-005",
+        "CON-006"
+      ],
+      "acceptance": "AC-010",
+      "task": "TASK-010",
+      "verification": "specs/verification.md",
+      "runtime_status": "NOT_COMPUTABLE",
+      "evidence": "No real corpus corrections or external notifications performed."
+    }
+  ],
+  "provenance": "Provenance: Notion Sprint 001 Hub [not inspected; Semion handoff read 2026-09-13 UTC] + Loop 805 Slice N/A (Semion advisory) + Hash: e5ed91bd90afb0429cf816504c7d5e622bbbc153 (base)"
+}
