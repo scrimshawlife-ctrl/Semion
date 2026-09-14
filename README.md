@@ -136,3 +136,7 @@ Hyperlex (form / lexical) · Athanor (tradition structure) · **Semion (sign rel
 Code: MIT. Corpus atoms carry their own licenses — see [`LICENSE_POLICY.md`](LICENSE_POLICY.md).
 
 Provenance: Notion Sprint 001 Hub [not inspected; Semion handoff read 2026-09-13 UTC] + Loop 805 Slice N/A (Semion advisory) + Hash: e5ed91bd90afb0429cf816504c7d5e622bbbc153 (base)
+
+## Shared research program (candidate)
+
+[Semion participation in persistent-agent research](specs/PERSISTENT-AGENT-PROGRAM.md) maps this component into ABX-NOEMA-REP-001. Advisory specification only; existing contracts and gates remain authoritative.
