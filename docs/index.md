@@ -5,6 +5,7 @@
 
 - [Quickstart](quickstart.md)
 - [Dual-use](dual-use.md)
+- [Gold labeling card](gold-labeling-card.md)
 - Constitution: `../.specify/memory/constitution.md`
 - Specs: `../specs/`
 

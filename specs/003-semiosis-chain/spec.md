@@ -30,6 +30,16 @@ semion.frame.v0  —export→  dict SemiosisFrame.v1-shaped  —Abraxas→  RUNE
 
 `source_space` / `target_space` / `focus_of_attention` are omitted. Semion does not invent them.
 
+## Literacy wall (Eco / model-reader)
+
+Unlimited or endless semiosis is Eco literacy. It is not a license for Semion to emit unbounded interpretant chains.
+
+Semion emits at most one hop (one `semion.frame.v0`). Abraxas owns chain length (`RUNE.SEMIOSIS.CHAIN`).
+
+When the object is underdetermined, or when a class would require overinterpretation, stay fail-closed. Export `is_sign=false`. Keep `sign_class` and `failure` as `NOT_COMPUTABLE`. Do not invent an object or interpretant to force `is_sign=true`.
+
+This section names model-reader, overinterpretation, and coherent-whole as literacy walls. It does not invent Eco primary quotes.
+
 ## Deny
 
 No `import abraxas`. No rune registry writes. `forecast_eligible` stays false on the export.
@@ -40,3 +50,4 @@ No `import abraxas`. No rune registry writes. `forecast_eligible` stays false on
 |---|---|
 | E-K0 | smoke frame → SemiosisFrame shape; no source_space |
 | E-K1 | forecast refuse export cannot set forecast_eligible |
+| E-K2 | underdetermined atom → export `is_sign=false`, interpretant `NOT_COMPUTABLE` |

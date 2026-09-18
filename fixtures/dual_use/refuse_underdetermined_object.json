@@ -1,0 +1,8 @@
+{
+  "note": "representamen present; object and corpus label absent; no class hints",
+  "sign_form": "garbled fragment",
+  "object_candidate": null,
+  "expect_is_sign": false,
+  "expect_sign_class": "NOT_COMPUTABLE",
+  "expect_failure": "NOT_COMPUTABLE"
+}
