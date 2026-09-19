@@ -13,6 +13,7 @@ Provenance: Notion Sprint 001 Hub [not inspected; Semion handoff read 2026-09-13
 
 Adapt existing corpus atoms (AMC LEARN-0002, Foundations sign inventory) into one triad packet.
 Do not invent a new mythology. Do not claim a mind formed an interpretant.
+Do not invent an object or interpretant to force `is_sign=true`. Underdetermined atoms stay `NOT_COMPUTABLE`.
 
 ## Packet fields
 

@@ -15,6 +15,7 @@ Current advisory qualification (2026-09-13 UTC): the instructions below are pres
 - Zip: `/workspace/semion-gold/semion-train-pack-m2-hq-20260911.zip`
 - **AMC high7 rewrite (2026-09-11):** 7 high-priority `sign_form` modality→atom rewrites applied (text→slang phrase; event/visual signal→smoke; image/object→skull; image/data visualization→waveform; data/event→market volume spike; image/object→sigil; image/text mixed→meme template). Receipt: `/workspace/semion-gold/receipts/amc-rewrite-high7-20260911.md`. Counts unchanged.
 - Gate: `QUALITY.md` + `COMPLETE.md` in pack (also [`docs/quality-bar.md`](quality-bar.md))
+- Gold class rails: [`docs/gold-labeling-card.md`](gold-labeling-card.md) (Trichotomy II only; underdetermined object → NC)
 - Spec 011: https://app.notion.com/p/3d83e8ba2f5c813c9989c0a2dc28357f
 
 **Supersedes** `semion-train-pack-m2-refuse-reshuffle-20260911` (sha `dd0555d3…`) for Aaron train.
